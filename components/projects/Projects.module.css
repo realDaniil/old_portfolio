@@ -1,0 +1,101 @@
+.section {
+	width: 100%;
+	padding-top: 200px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section h2 {
+	color: #3a93f2;
+}
+
+.project_holder {
+	margin-top: 2rem;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.imageSide,
+.descriptionSide {
+	width: 50%;
+}
+
+.img_holder {
+	width: 90%;
+	overflow: hidden;
+	border-radius: 15px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.img_holder img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	transition: 0.2s;
+	border-radius: 15px;
+}
+
+.img_holder img:hover {
+	transform: scale(1.05);
+	filter: brightness(1.1);
+}
+
+.section h3 {
+	font-size: 22px;
+	font-weight: 900;
+	color: #4c98ea;
+	margin-bottom: 1rem;
+}
+
+.description {
+	color: rgb(62, 62, 62);
+}
+
+.technologyName {
+	margin: 1rem 0;
+	font-weight: 600;
+}
+
+.links_holder a {
+	transition: 0.2s;
+	padding: 4px 4px 4px 0;
+	display: inline-flex;
+	align-items: center;
+	font-weight: 600;
+	margin: 0 1rem 0 0;
+}
+
+.links_holder a:hover {
+	color: rgb(93, 93, 93);
+}
+
+@media (max-width: 800px) {
+	.project_holder {
+		flex-direction: column-reverse;
+	}
+	.imageSide {
+		width: 300px;
+		margin: 1rem;
+	}
+	.defaultProject_holder {
+		flex-direction: column;
+	}
+	.descriptionSide {
+		width: 100%;
+	}
+}
+
+
+
+@media (max-width: 350px) {
+	.imageSide {
+		width: 200px;
+	}
+}
