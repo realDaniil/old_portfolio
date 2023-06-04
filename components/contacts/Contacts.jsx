@@ -24,19 +24,19 @@ function Contacts() {
 					</div>
 					<div className={cl.text_holder}>
 						<p className={cl.title}>Mail</p>
-						<a href='mailto:daniilga2@icloud.com' className={cl.body}>daniilga2@icloud.com</a>
+						<a href='mailto:daniilgirzhev@gmail.com' className={cl.body}>daniilgirzhev@gmail.com</a>
 					</div>
 				</div>
-				{/* <div className={cl.card}>
+				<div className={cl.card}>
 					<div className={cl.icon_holder}>
 						<BsTelegram />
 					</div>
 					<div className={cl.text_holder}>
 						<p className={cl.title}>Telegram</p>
-						<p className={cl.body}>@</p>
+						<a target='_blank' href='https://t.me/blshkn' className={cl.body}>@blshkn</a>
 					</div>
-				</div> */}
-				<div className={cl.card}>
+				</div>
+				{/* <div className={cl.card}>
 					<div className={cl.icon_holder}>
 						<AiFillInstagram />
 					</div>
@@ -44,7 +44,7 @@ function Contacts() {
 						<p className={cl.title}>Instagram</p>
 						<a target='_blank' href='https://www.instagram.com/real_the_neel/' className={cl.body}>@real_the_neel</a>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)
