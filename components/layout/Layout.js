@@ -4,7 +4,7 @@ import Head from "next/head"
 import { RiSettings3Fill } from 'react-icons/ri'
 import Header from '../UI/header/Header'
 
-export default function Layout({ children, title = 'Wallpaper' }) {
+export default function Layout({ children, title = 'Portfolio' }) {
 	return (
 		<div>
 			<Head>
