@@ -17,7 +17,7 @@ function WelcomeSection() {
 					<div className={cl.leftSide}>
 						<h1>Front-End React Developer 👋</h1>
 						<p>Hi, I'm Danya. A passionate Front-End React Developer based in Odessa, <span style={{ display: 'inline-flex' }}>Ukraine 📍</span></p>
-						<a href='https://github.com/BigBelash228' target='_blank'><AiFillGithub className={cl.link} /></a>
+						<a href='https://github.com/realDaniil' target='_blank'><AiFillGithub className={cl.link} /></a>
 					</div>
 					<div className={cl.rightSide}>
 						<div className={cl.img_holder}>
