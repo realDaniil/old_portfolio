@@ -20,7 +20,7 @@ function About() {
 					<h2>A dedicated Front-end Developer based in Odessa, <span style={{display: 'inline-flex' }}>Ukraine 📍</span></h2>
 					<br />
 					<p>
-						As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript,
+						As a Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript,
 						React and Next JS. I excel in designing and maintaining responsive websites that offer
 						a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing
 						clean and optimized code and utilizing cutting-edge development tools and techniques.
