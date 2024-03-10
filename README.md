@@ -1,1 +1,1 @@
-https://realdaniil.github.io/portfolio/
+https://realdaniil.github.io/old-portfolio/
